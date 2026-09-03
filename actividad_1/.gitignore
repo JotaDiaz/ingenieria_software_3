@@ -1,0 +1,67 @@
+# ---------- Python / Backend (FastAPI) ----------
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist-packages/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.htmlcov/
+.coverage
+.coverage.*
+
+# ---------- SQLite ----------
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# ---------- Node / Frontend (Vite) ----------
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ---------- Logs ----------
+logs/
+*.log
+
+# ---------- Entorno / Secretos ----------
+*.pem
+*.key
+*.crt
+
+# ---------- Editores / IDE ----------
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------- Sistema Operativo ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
